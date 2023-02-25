@@ -17,7 +17,7 @@ body {
     flex-direction: row;
 }
 #showcase1 {
-    background-image: url(img/baldas.png);
+    background-image: url(../img/baldas.png);
     background-size: 40vh;
     background-repeat: no-repeat;
     background-position: center left;
@@ -27,7 +27,7 @@ body {
     position: relative;
 }
 .mostrador {
-    background-image: url(img/mostrador3.png);
+    background-image: url(../img/mostrador3.png);
     background-size: 60vh;
     background-repeat: no-repeat;
     background-position: center left;
