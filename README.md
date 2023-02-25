@@ -12,3 +12,6 @@ Para realizar el ejercicio se utiliza:
 - Código ES6
 
 > NOTA: La tienda está pensada para ser utilizada en pantallas de tamaño de 1920 * 1080px.
+
+
+https://aroamz.github.io/ProyectoFinal-ShowcaseDinamico-GeeksHubs/
