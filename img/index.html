@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ProyectoFinalShowcase.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="list">
+        <p>Estas comprando:</p>
+    </div>
+    <div class="container">
+        <div id="showcase1">
+            <div id="cocacola" ondrop="dropShelf(event)" ondragover="allowDrop(event)">
+                <img id="cocacola01" class="cocacola" src="img/13-coca-cola-light-bottle-png-image.png" alt="cocacola"
+                    draggable="true" ondragstart="drag(event)">
+                <img id="cocacola02" class="cocacola" src="img/13-coca-cola-light-bottle-png-image.png" alt="cocacola"
+                    draggable="true" ondragstart="drag(event)">
+                <img id="cocacola03" class="cocacola" src="img/13-coca-cola-light-bottle-png-image.png" alt="cocacola"
+                    draggable="true" ondragstart="drag(event)">
+                <img id="cocacola04" class="cocacola" src="img/13-coca-cola-light-bottle-png-image.png" alt="cocacola"
+                    draggable="true" ondragstart="drag(event)">
+                <img id="cocacola05" class="cocacola" src="img/13-coca-cola-light-bottle-png-image.png" alt="cocacola"
+                    draggable="true" ondragstart="drag(event)">
+                <img id="cocacola06" class="cocacola" src="img/13-coca-cola-light-bottle-png-image.png" alt="cocacola"
+                    draggable="true" ondragstart="drag(event)">
+            </div>
+            <div id="teVerde" ondrop="dropShelf(event)" ondragover="allowDrop(event)">
+                <img id="teVerde01" class="teVerde" src="img/teVerde.png" alt="teVerde" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="teVerde02" class="teVerde" src="img/teVerde.png" alt="teVerde" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="teVerde03" class="teVerde" src="img/teVerde.png" alt="teVerde" draggable="true"
+                    ondragstart="drag(event)">
+            </div>
+            <div id="teOrganico" ondrop="dropShelf(event)" ondragover="allowDrop(event)">
+                <img id="teOrganico01" class="teOrganico" src="img/teOrganico.png" alt="teOrganico" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="teOrganico02" class="teOrganico" src="img/teOrganico.png" alt="teOrganico" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="teOrganico03" class="teOrganico" src="img/teOrganico.png" alt="teOrganico" draggable="true"
+                    ondragstart="drag(event)">
+            </div>
+            <div id="pan" ondrop="dropShelf(event)" ondragover="allowDrop(event)">
+                <img id="pan01" class="pan" src="img/pan.png" alt="pan" draggable="true" ondragstart="drag(event)">
+                <img id="pan02" class="pan" src="img/pan.png" alt="pan" draggable="true" ondragstart="drag(event)">
+                <img id="pan03" class="pan" src="img/pan.png" alt="pan" draggable="true" ondragstart="drag(event)">
+
+            </div>
+            <div id="queso" ondrop="dropShelf(event)" ondragover="allowDrop(event)">
+                <img id="queso01" class="queso" src="img/queso.png" alt="queso" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="queso02" class="queso" src="img/queso.png" alt="queso" draggable="true"
+                    ondragstart="drag(event)">
+            </div>
+            <div id="curasan" ondrop="dropShelf(event)" ondragover="allowDrop(event)">
+                <img id="curasan01" class="curasan" src="img/curasan.png" alt="curasan" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="curasan02" class="curasan" src="img/curasan.png" alt="curasan" draggable="true"
+                    ondragstart="drag(event)">
+            </div>
+            <div id="chocolate" ondrop="dropShelf(event)" ondragover="allowDrop(event)">
+                <img id="chocolate01" class="chocolate" src="img/chocolate.png" alt="chocolate01" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="chocolate02" class="chocolate" src="img/chocolate.png" alt="chocolate01" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="chocolate03" class="chocolate" src="img/chocolate.png" alt="chocolate01" draggable="true"
+                    ondragstart="drag(event)">
+            </div>
+            <div id="galleta" ondrop="dropShelf(event)" ondragover="allowDrop(event)">
+                <img id="galleta01" class="galleta" src="img/galleta.png" alt="galleta" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="galleta02" class="galleta" src="img/galleta.png" alt="galleta" draggable="true"
+                    ondragstart="drag(event)">
+            </div>
+            <div id="albaricoqueSuperior" ondrop="dropShelf(event)" ondragover="allowDrop(event)">
+                <img id="albaricoque01" class="albaricoque" src="img/albaricoqueIndividual.png" alt="albaricoque"
+                    draggable="true" ondragstart="drag(event)">
+                <img id="albaricoque02" class="albaricoque" src="img/albaricoqueIndividual.png" alt="albaricoque"
+                    draggable="true" ondragstart="drag(event)">
+            </div>
+            <div id="albaricoqueInferior" ondrop="dropShelf(event)" ondragover="allowDrop(event)">
+                <img id="albaricoque03" class="albaricoque" src="img/albaricoqueIndividual.png" alt="albaricoque"
+                    draggable="true" ondragstart="drag(event)">
+                <img id="albaricoque04" class="albaricoque" src="img/albaricoqueIndividual.png" alt="albaricoque"
+                    draggable="true" ondragstart="drag(event)">
+            </div>
+            <div id="albaricoqueDocena" ondrop="dropShelf(event)" ondragover="allowDrop(event)">
+                <img id="albaricoqueDocena01" class="albaricoque" src="img/albaricoqueDocena.png" alt="albaricoque"
+                    draggable="true" ondragstart="drag(event)">
+                <img id="albaricoqueDocena02" class="albaricoque" src="img/albaricoqueDocena.png" alt="albaricoque"
+                    draggable="true" ondragstart="drag(event)">
+                <img id="albaricoqueDocena03" class="albaricoque" src="img/albaricoqueDocena.png" alt="albaricoque"
+                    draggable="true" ondragstart="drag(event)">
+            </div>
+            <div id="berenjena" ondrop="dropShelf(event)" ondragover="allowDrop(event)">
+                <img id="berenjena01" class="berenjena" src="img/berenjena.png" alt="berenjena" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="berenjena02" class="berenjena" src="img/berenjena.png" alt="berenjena" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="berenjena03" class="berenjena" src="img/berenjena.png" alt="berenjena" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="berenjena04" class="berenjena" src="img/berenjena.png" alt="berenjena" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="berenjena05" class="berenjena" src="img/berenjena.png" alt="berenjena" draggable="true"
+                    ondragstart="drag(event)">
+                <img id="berenjena06" class="berenjena" src="img/berenjena.png" alt="berenjena" draggable="true"
+                    ondragstart="drag(event)">
+            </div>
+
+        </div>
+        <div class="mostrador">
+            <div class="bolsa" ondrop="dropBasket(event)" ondragover="allowDrop(event)">
+                <img src="img/bolsa.png">
+            </div>
+            <div class="fondo">
+                <p><span id="amountBasket"></span> €</p>
+            </div>
+        </div>
+        <span id="name">
+        </span>
+    </div>
+    <footer>
+        <a
+            href="https://www.freepik.es/vector-gratis/estantes-supermercado-realistas_3796463.htm#query=estante%20supermercado&position=4&from_view=keyword">Imagen
+            de macrovector</a> en Freepik
+        <a
+            href="https://www.freepik.es/vector-gratis/conjunto-alimentos-sobre-fondo-blanco_4344950.htm#query=alimentos&position=5&from_view=search&track=sph">Imagen
+            de brgfx</a> en Freepik
+    </footer>
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>

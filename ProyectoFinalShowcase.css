@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung', cursive;
+}
+body {
+    text-align: center;
+    background: #e8e8e8;
+    height: 100vh;
+}
+.container {
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+#showcase1 {
+    background-image: url(img/baldas.png);
+    background-size: 40vh;
+    background-repeat: no-repeat;
+    background-position: center left;
+    width: 45vh;
+    height: 100vh;
+    margin: 2rem;
+    position: relative;
+}
+.mostrador {
+    background-image: url(img/mostrador3.png);
+    background-size: 60vh;
+    background-repeat: no-repeat;
+    background-position: center left;
+    width: 60vh;
+    height: 100vh;
+    margin-top: 5rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.fondo {
+    background-color: #000;
+    min-width: 15%;
+    height: 5%;
+    margin-top: 23rem;
+    margin-left: 17rem;
+    border-radius: 10px;
+}
+.fondo p {
+    color: #e8e8e8;
+    text-align: center;
+    margin-top: 15%;
+}
+.bolsa img {
+    width: 20vh;
+    height: 20vh;
+    margin-top: 26rem;
+}
+.cocacola,
+.teVerde,
+.teOrganico,
+.pan,
+.queso,
+.galleta,
+.chocolate,
+.curasan,
+.albaricoque,
+.berenjena {
+    width: 2%;
+}
+#cocacola,
+#berenjena {
+    width: 60vh;
+    height: 8vh;
+    position: absolute;
+    top: 17rem;
+    left: 1rem;
+}
+#cocacola img,
+#berenjena img {
+    width: 10%;
+    height: 80%;
+}
+#teVerde {
+    width: 19vh;
+    height: 8vh;
+    position: absolute;
+    top: 23rem;
+    left: 1rem;
+}
+#teVerde img {
+    width: 30%;
+    height: 80%;
+}
+#teOrganico {
+    width: 16vh;
+    height: 8vh;
+    position: absolute;
+    top: 23rem;
+    left: 15rem;
+}
+#teOrganico img {
+    width: 28%;
+    height: 80%;
+}
+#pan {
+    width: 18vh;
+    height: 8vh;
+    position: absolute;
+    top: 30rem;
+    left: 1rem;
+}
+#pan img {
+    width: 28%;
+    height: 80%;
+}
+#queso {
+    width: 16vh;
+    height: 8vh;
+    position: absolute;
+    top: 30rem;
+    left: 15rem;
+}
+#queso img {
+    width: 48%;
+    height: 80%;
+}
+#curasan {
+    width: 16vh;
+    height: 8vh;
+    position: absolute;
+    top: 36rem;
+    left: 15rem;
+}
+#curasan img {
+    width: 45%;
+    height: 80%;
+}
+#chocolate {
+    width: 10vh;
+    height: 8vh;
+    position: absolute;
+    top: 37rem;
+    left: 8rem;
+}
+#chocolate img {
+    width: 30%;
+    height: 50%;
+}
+#galleta {
+    width: 10vh;
+    height: 8vh;
+    position: absolute;
+    top: 37rem;
+    left: 1rem;
+}
+#galleta img {
+    width: 40%;
+    height: 50%;
+}
+#albaricoqueInferior {
+    width: 10vh;
+    height: 8vh;
+    position: absolute;
+    top: 44rem;
+    left: 1rem;
+}
+#albaricoqueSuperior {
+    width: 10vh;
+    height: 8vh;
+    position: absolute;
+    top: 41.5rem;
+    left: 1rem;
+}
+#albaricoqueInferior img {
+    width: 40%;
+    height: 50%;
+}
+#albaricoqueSuperior img {
+    width: 40%;
+    height: 50%;
+}
+#albaricoqueDocena {
+    width: 30vh;
+    height: 8vh;
+    position: absolute;
+    top: 44rem;
+    left: 8rem;
+}
+#albaricoqueDocena img {
+    width: 30%;
+    height: 50%;
+}
+#berenjena {
+    width: 60vh;
+    height: 8vh;
+    position: absolute;
+    top: 48rem;
+    left: 1rem;
+}
+#berenjena img {
+    width: 10%;
+    height: 80%;
+}
+#list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 1rem;
+}
