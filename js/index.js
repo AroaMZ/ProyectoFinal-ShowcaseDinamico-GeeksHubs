@@ -19,11 +19,13 @@ const convertIdToValidString = value => {
 }
 const addPriceWhenAddToBasket = product => {
     counter += priceList[product];
-    document.getElementById('amountBasket').innerHTML = counter.toFixed(2);
+    document.getElementById('amountBasketTotal').innerHTML = counter.toFixed(2);
+    document.getElementById('amountBasketUnidad').innerHTML = priceList[product];
 }
 const substractPriceWhenRemovedFromBasket = product => {
     counter -= priceList[product];
-    document.getElementById('amountBasket').innerHTML = counter.toFixed(2);
+    document.getElementById('amountBasketTotal').innerHTML = counter.toFixed(2);
+    document.getElementById('amountBasketUnidad').innerHTML = 0;
 }
 const drag = ev => {
     ev.dataTransfer.setData("text", ev.target.id);
